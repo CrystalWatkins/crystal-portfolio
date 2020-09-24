@@ -1,0 +1,24 @@
+body {
+    background-color: black!important;
+}
+#portfolio-text1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.contactInfo {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    opacity: 80%;
+    font-size: 20px;
+}
+.links {
+    color: #717479;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+Figure.Image {
+    width: 700px;
+    height: 500px;
+    float: left;
+}

@@ -1,0 +1,8 @@
+Footer {
+    background-color: black;
+    position: sticky;
+    color: white;
+    text-align: center;
+    border-top: 3px solid darkgrey;
+    height: 50px
+}

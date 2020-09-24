@@ -1,0 +1,23 @@
+.portfolio-pic{
+    height: 500px !important;
+    width: 100% !important;
+    opacity: 20%;
+    float: left;
+}
+.title{
+    font-size: 10vw 10vh;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.description{
+    font-size: 8vw 8vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+.technology{
+    font-size: 5vw 5vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;;
+}
+.links{
+    font-size: 5vw 5vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

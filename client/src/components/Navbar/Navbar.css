@@ -1,0 +1,17 @@
+.navbar {
+    position: sticky;
+    width: 100%;
+    border-bottom: 3px solid darkgrey;
+}
+.bg {
+    background-color: #717479!important;
+}
+.navbar-brand {
+    color: white!important;
+}
+.nav-link {
+    color: white!important;
+}
+.navbar-toggler {
+    background-color:darkgrey!important;
+}
