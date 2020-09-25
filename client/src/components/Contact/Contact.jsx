@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Alert } from "react-bootstrap";
+// import { Alert } from "react-bootstrap";
 import { toast } from 'react-toastify';
 
 class Contact extends Component {
@@ -27,7 +27,7 @@ handleSubmit = (e) => {
   const subject = this.state.name;
   const from = this.state.email;
   const text = this.state.message;
-  axios.post("https://node-mailer-crystal.herokuapp.com/api/email", {subject: subject, from: from, text: text}).then((res) =>{
+  axios.post("http://localhost:3000/api/email", {subject: subject, from: from, text: text}).then((res) =>{
     //toast goes here
     toast.success("Email Sent Successfully");
   })

@@ -6,8 +6,8 @@ require("dotenv").config();
 const cors = require("cors");
 
 
-const PORT = process.env.PORT || 3000;
 
+app.use(express.static(path.join(__dirname, "client", "build")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
@@ -20,6 +20,11 @@ app.use(function (req, res, next) {
 
 app.use("/api/email", email);
 
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+})
+
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Listening on http://localhost:${PORT}`);
 });
