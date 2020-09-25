@@ -27,7 +27,7 @@ handleSubmit = (e) => {
   const subject = this.state.name;
   const from = this.state.email;
   const text = this.state.message;
-  axios.post("http://localhost:3000/api/email", {subject: subject, from: from, text: text}).then((res) =>{
+  axios.post("https://crystal-watkins-portfolio.herokuapp.com/api/email", {subject: subject, from: from, text: text}).then((res) =>{
     //toast goes here
     toast.success("Email Sent Successfully");
   })
