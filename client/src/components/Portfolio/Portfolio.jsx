@@ -299,7 +299,7 @@ const Portfolio = () => {
                     alphabetically by the first name. When you search, you
                     receive the search for the employee you searched. With more,
                     the app will be de-structured to be more re-usable. This is
-                    calling on the API random user. Hi
+                    calling on the API random user. 
                   </Card.Text>
                   <Card.Text className="technology">
                     Technology: React
