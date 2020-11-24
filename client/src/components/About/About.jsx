@@ -29,7 +29,7 @@ const About = () => {
                   through Georgia Tech as of August 2020. I have a background in sales and logistics,
                   having managed teams of up to 140 people. I'm a former college athlete where I was able to
                   play tennis at Florida Southern College. I am a hard-working, team
-                  player who is excited to continue to learn and develop skills in the field. I am fluent in 
+                  player who is excited to continue to learn and develop skills in this field. I am fluent in 
                   React, Javascript, Node.js, JQuery, Front End Development, MySQL, and MongoDB. Please see all contact 
                   information below and previous projects under the Portfolio tab!
                 </p>
